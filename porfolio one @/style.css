@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MYSELF{
+    padding: 20px;
+}
+
+.MYSELF> section h4{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.intro{
+    margin: -20px;
+    padding: 20px;
+    background-color: rgba(10, 10, 10, 0.726);
+    color: whitesmoke;
+    text-align: center;
+
+}
+#profile-image{
+    width: 350px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.SOCIAL img{
+    height: 35px;
+    width: 35px;
+}
+
+.SOCIAL a{
+    text-decoration: none;
+    margin: auto 2.5px;
+}
+
+.orange{
+    color: maroon;
+}
+.blue{
+    color: maroon;
+}
+
+table
+tr
+td
+{
+    border: 2px solid rgb(255, 234, 0);
+    border-collapse: collapse;
+    
+}
+
+td{
+    padding: 5px;
+}
+
+.dynamic-text-color{
+    color: gold;
+}
+
+form#contact{
+    max-width: 100px;
+    margin: auto;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 16px;
+}
+
+#contact label{
+    display: block;
+    font-weight: 600;
+}
+
+
+#contact input,
+#contact textarea,
+#contact button{
+    width: 200%;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+footer > div{
+    padding: 16px;
+    text-align: center
+
+}
+
+header nav > a{
+    text-decoration: none;
+}
